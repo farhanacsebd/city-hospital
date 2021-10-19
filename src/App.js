@@ -4,6 +4,8 @@ import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Home/Shared/Header/Header';
 import Footer from './Pages/Footer/Footer';
+import Booking from './Pages/Booking/Booking/Booking';
+import Login from './Pages/Login/Login/Login';
 
 
 
@@ -18,6 +20,12 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/booking/:serviceId">
+            <Booking></Booking>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
