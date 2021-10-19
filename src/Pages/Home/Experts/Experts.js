@@ -10,7 +10,7 @@ const Experts = () => {
             .then(data => setExperts(data));
     }, [])
     return (
-        <div id="services"><h2 className="text-primary m-5">Our Services</h2>
+        <div id="services"><h2 className="text-primary m-5">Our Doctors</h2>
             <Container>
                 <Row xs={1} md={3} className="g-4 pb-5">
                     {/* dynamically load card start  */}
