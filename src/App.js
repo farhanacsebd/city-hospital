@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
-import Header from './Pages/Home/Shared/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import Booking from './Pages/Booking/Booking/Booking';
 import Login from './Pages/Login/Login/Login';
 import About from './Pages/Home/Home/About/About';
+import Header from './Pages/Shared/Header/Header';
 
 
 
