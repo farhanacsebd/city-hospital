@@ -6,6 +6,7 @@ import Header from './Pages/Home/Shared/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import Booking from './Pages/Booking/Booking/Booking';
 import Login from './Pages/Login/Login/Login';
+import About from './Pages/Home/Home/About/About';
 
 
 
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="/login">
             <Login></Login>

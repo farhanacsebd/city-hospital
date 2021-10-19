@@ -1,4 +1,3 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
@@ -10,7 +9,7 @@ const Header = () => {
         // nav bar start 
         <Navbar bg="primary" variant="dark" sticky="top" expand="lg">
             <Container>
-                <Navbar.Brand as={HashLink} to="/home#home">Hot-Line</Navbar.Brand>
+                <Navbar.Brand as={HashLink} className="fw-bold" to="/home#home">CARE HOSPITAL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
