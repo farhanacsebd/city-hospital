@@ -1,6 +1,6 @@
 # Project Name : City-Hospital
 
-Project link -https://priceless-swirles-ec64d8.netlify.app
+Project link -https://care-hospital-web.web.app
 
 ## Technologies
 
