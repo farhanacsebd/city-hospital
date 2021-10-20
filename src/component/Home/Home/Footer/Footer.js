@@ -34,7 +34,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </Container>
-            <p className="p-3 m-0">Copyright © 2021. All Rights Reserved by Farhana Binte Hasan. </p>
+            <p className="text-center p-3 m-0">Copyright © 2021. All Rights Reserved by Farhana Binte Hasan. </p>
         </div>
 
         // footer end 

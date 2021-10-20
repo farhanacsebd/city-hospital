@@ -14,15 +14,15 @@ const Details = () => {
         <Container className="py-5 my-5">
             <div className="row">
 
-                <div className="col-md-8 text-start">
-                    <h3>{docDetails?.name}</h3>
-                    <p>To move a dead body from one place to another place, the freezing van or freezing ambulance is used for that. In this case, the dead body is kept at the temperature of the filling ambulance (-5%) so that there is no smell from the dead body easily and the body is free from virus and virus free.ody from one place to another place, the freezing van or freezing ambulance is used for that. In this case, the dead body is kept at the temperature of the filling ambulance (-5%) so that there is no smell from th</p>
-                    <p>Call {docDetails?.call}</p>
-                    <p>Duty time : {docDetails?.time}</p>
-                </div>
                 <div className="col-md-4">
                     <img src={docDetails.img} alt="" className="w-100" />
                 </div>
+
+                <div className="col-md-8 text-start">
+                    <h3>DEPARTMENT:{docDetails?.name}</h3>
+                    <p>Description:{docDetails?.description}</p>
+                </div>
+
             </div>
         </Container>
     );

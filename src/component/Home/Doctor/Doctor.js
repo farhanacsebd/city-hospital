@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const Doctor = ({ doctor }) => {
-  const { name, img, id } = doctor
+  const { name, img, id, description } = doctor
 
   const history = useHistory()
   const viewDetails = () => {
@@ -12,18 +12,19 @@ const Doctor = ({ doctor }) => {
 
   return (
     <Col>
-      <Card className="pb-3 text-center">
-        <Card.Img style={{ height: '170px', objectFit: 'cover' }} variant="top" src={img} />
-        <Card.Body className="bg-dark text-light">
-          <Card.Title>{name}</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-          <Button onClick={viewDetails} className="">View Details</Button>
-        </Card.Body>
 
+
+
+      <Card style={{ margin: '3px' }}>
+        <Card.Img style={{ height: '15rem' }} variant="top" src={img} />
+        <Card.Body className="cBody">
+          <Card.Title>{name}</Card.Title>
+          <Card.Text>{description.slice(0, 50)}</Card.Text>
+          <Button onClick={viewDetails} className="">More Details</Button>
+        </Card.Body>
       </Card>
+
+
     </Col>
   );
 };

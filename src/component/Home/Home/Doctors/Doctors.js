@@ -12,7 +12,7 @@ const Doctors = () => {
     return (
         <div className="py-5">
             <Container>
-                <h1 style={{ fontSize: "4rem" }} className="text-center pb-3">Our Services</h1>
+                <h1 style={{ fontSize: "3rem" }} className="text-center text-info pb-3">OUR SERVICES & FACILITIES</h1>
                 <Row xs={1} md={3} className="g-4">
                     {
                         doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)
