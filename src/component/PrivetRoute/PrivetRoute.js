@@ -1,18 +1,19 @@
 import React from 'react';
+import { Spinner } from 'react-bootstrap';
 import { Redirect, Route } from 'react-router';
 import useAuth from '../../Hooks/useAuth'
-const PrivetRoute = ({children,...rest}) => {
+const PrivetRoute = ({ children, ...rest }) => {
 
-    const {user,loading} = useAuth()
-    if (loading) {
-        return <h1 className="text-center">Please Wait...</h1>
+    const { user, isLoading } = useAuth()
+    if (isLoading) {
+        return <Spinner animation="border" variant="danger" />
     }
     return (
-        <Route 
+        <Route
             {...rest}
-            render={({location})=> user.email ? children : <Redirect to={{pathname:'/sign',state:{from:location}}}></Redirect>}
-            >
-            
+            render={({ location }) => user.email ? children : <Redirect to={{ pathname: '/sign', state: { from: location } }}></Redirect>}
+        >
+
         </Route>
     );
 };
