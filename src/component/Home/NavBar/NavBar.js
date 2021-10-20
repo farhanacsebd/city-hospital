@@ -21,10 +21,10 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/experts">Doctors</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/contuct">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             <Nav.Link>
-              <Badge bg="warning" text="dark">
-                {user?.displayName || 'empty user'}
+              <Badge bg="light" text="dark">
+                {user?.displayName || 'no user'}
               </Badge>
             </Nav.Link>
             <img style={{ height: '50px', width: '50px', borderRadius: '50px' }} src={user.photoURL || 'https://us.123rf.com/450wm/happyvector071/happyvector0711904/happyvector071190415714/121105442-creative-illustration-of-default-avatar-profile-placeholder-isolated-on-background-art-design-grey-p.jpg?ver=6'} alt="" />

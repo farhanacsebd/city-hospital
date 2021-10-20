@@ -39,7 +39,7 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/contuct">
+            <Route path="/contact">
               <Contuct></Contuct>
             </Route>
 
