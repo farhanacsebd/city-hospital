@@ -13,11 +13,10 @@ Project link -https://priceless-swirles-ec64d8.netlify.app
 
 ### Features
 
--To serve the humanity as a whole with this nobel vision
--The trust has agreed upon to provide health care service to the people with affordable cost.
+- To serve the humanity as a whole with this nobel vision.
+- The trust has agreed upon to provide health care service to the people with affordable cost.
 - Trust loves to take challenge.
 - Poor people are free of cost.
-- To serve the humanity as a whole with this nobel vision
 
 ### What i have done?
 
