@@ -46,7 +46,7 @@ const Signup = () => {
                         <Button onClick={signUpp} variant="primary" type="button">
                             Sign up
                         </Button>
-                        <Button onClick={handleAndRedirect} variant="warning" type="button">
+                        <Button onClick={handleAndRedirect} className=" mx-3" variant="warning" type="button">
                             Sign up google
                         </Button>
                         <p>{error}</p>
