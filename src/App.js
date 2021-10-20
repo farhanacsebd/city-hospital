@@ -3,6 +3,7 @@ import './App.css';
 import AuthProvider from './AuthProvider/AuthProvider';
 import About from './component/About/about';
 import Contuct from './component/Contuct/contuct';
+import Experts from './component/Experts/Experts';
 import Details from './component/Home/Home/Details/Details';
 import Footer from './component/Home/Home/Footer/Footer';
 import Home from './component/Home/Home/Home';
@@ -31,6 +32,9 @@ function App() {
 
             <Route path="/services">
               <Services />
+            </Route>
+            <Route path="/experts">
+              <Experts />
             </Route>
             <Route path="/about">
               <About></About>

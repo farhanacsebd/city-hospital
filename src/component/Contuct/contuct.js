@@ -6,7 +6,7 @@ const Contuct = () => {
             {/* about page heading start */}
 
             <div className="aboutackdround">
-                <h1 className="mb-1 text-center pt-3 fw-bold"><span style={{ fontSize: '3rem' }}>Contact us</span></h1>
+                <h1 className="mb-1 text-info text-center pt-3"><span style={{ fontSize: '3rem' }}>Contact us</span></h1>
             </div>
 
             {/* about page heading end */}
@@ -15,7 +15,7 @@ const Contuct = () => {
                 <div className="row py-5">
                     <div className="col-12 col-md-6">
                         <div className="text-center">
-                            <h3 className='mb-3'>Contact Information</h3>
+                            <h4 className='mb-3'>Contact Information</h4>
 
                             <p>H#12/A, Road#02, Katalganj R/A, Panchlaish, Dhaka
 
