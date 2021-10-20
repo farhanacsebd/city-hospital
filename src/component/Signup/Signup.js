@@ -23,7 +23,7 @@ const Signup = () => {
         <Container>
             <div className="w-50 mx-auto">
 
-                <div className="py-5">
+                <div className="py-5 text-start">
                     <div>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Your Name</Form.Label>

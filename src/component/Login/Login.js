@@ -9,7 +9,7 @@ const Login = () => {
     return (
         <Container>
             <div className="w-50 mx-auto">
-                <div className="py-5">
+                <div className="py-5 text-start">
                     <div>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
@@ -22,7 +22,7 @@ const Login = () => {
                             <Form.Control onClick={handlePass} type="password" placeholder="Password" />
                         </Form.Group>
 
-                        <button onClick={loggIn} className="bg-warning rounded py-2 px-3 border-0">Login</button>
+                        <button onClick={loggIn} className="bg-warning text-white rounded py-2 px-3 border-0">Login</button>
                         <Link to="/sign">New user?</Link>
                         <p>{error}</p>
                     </div>

@@ -5,16 +5,28 @@ const Branch = () => {
     return (
         <div className="py-5">
             <Container>
-                <h1 style={{fontSize:"4rem"}} className=" pb-3 text-center">Our Goal in Future</h1>
+                <h1 style={{ fontSize: "3rem" }} className=" pb-5 text-center text-info">Depertment & Facilities</h1>
                 <div className="row">
                     <div className="col-12 col-md-6">
-                        <img src="https://www.postdicom.com/Images/BlogPosts/SocialMediaImages/medical-imaging-science-and-applications-social.jpg" alt="" className="w-100" />
+                        <img src="https://v3u9z9k5.stackpathcdn.com/wp-content/uploads/2018/06/IMAGING_lowres.jpg" alt="" className="w-100" />
                     </div>
                     <div className="col-12 col-md-6 text-start">
-                        <h2>title here</h2>
-                        <p>The candidates bearing the following Roll Numbers have been provisionally selected for admission to 1st year MBBS class (BM-31) of session 2016-2017 subject to medical fitness and submission of original SSC and HSC/O level and A level certificates, mark sheets, testimonials, equivalence certificate, Admit Card, and 4 (Four) recent passport size photo. If there is any false information in the admission documents, the admission will be cancelled at
-                        any time.admission to 1st year MBBS class (BM-31) of session 2016-2017 subject to medical fitness and submission of original SSC and HSC/O level and A level certificates, mark sheets, testimonials, equivalence certificate, Admit Card, and 4 (Four) recent passport size photo. If there is any false information in the admission documents, the admission will be can</p>
-                        <Button>Read more</Button>
+                        <h3>Radiology & Imaging Services</h3>
+                        <p>City Hospital Trust loves to take challenge to diagnosis the disease and offering treatment to the patient. We offer the best Radiology and imaging services to the patient with industry latest 3 Tesla MRI, Acquisition, Multi slice CT Scan, Digital 100 msH X Ray 4D Ultrasonography and others. We are the pioneer in 1.5 Tesla MRI and 128 Slice CT scan in Bangladesh. A group of well educated experienced consultants with European and North American degrees are working hard to verify the reports.</p>
+
+                    </div>
+                </div>
+            </Container>
+            <Container>
+                <div className="row mt-4">
+                    <div className="col-12 col-md-6 text-start">
+                        <h3>Pain and Physiotherapy Center</h3>
+                        <p>Pain is a protective symptom. It leads a patient to take medication and treatment. Our pain center is dedicated to care your pain and keeping you in comfort. We have renowned doctors, physiotherapists and world-class instruments for pain management and rehabilitation of the patients. We love to address all sort of pain and offer quality services to make our patients happy and smile. You are welcome to visit our pain and physiotherapy center.</p>
+
+                    </div>
+
+                    <div className="col-12 col-md-6">
+                        <img src="https://www.postdicom.com/Images/BlogPosts/SocialMediaImages/medical-imaging-science-and-applications-social.jpg" alt="" className="w-100" />
                     </div>
                 </div>
             </Container>

@@ -8,6 +8,7 @@ import Footer from './component/Home/Home/Footer/Footer';
 import Home from './component/Home/Home/Home';
 import NavBar from './component/Home/NavBar/NavBar';
 import Login from './component/Login/Login';
+import Notfound from './component/Notfound/Notfound';
 import PrivetRoute from './component/PrivetRoute/PrivetRoute';
 import Services from './component/Services/services';
 import Signup from './component/Signup/Signup';
@@ -16,20 +17,20 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-          <BrowserRouter>
-          <NavBar/>
+        <BrowserRouter>
+          <NavBar />
           <Switch>
 
             <Route exact path="/">
-              <Home/>
+              <Home />
             </Route>
 
-            <Route  path="/home">
-              <Home/>
+            <Route path="/home">
+              <Home />
             </Route>
 
             <Route path="/services">
-              <Services/>
+              <Services />
             </Route>
             <Route path="/about">
               <About></About>
@@ -39,20 +40,22 @@ function App() {
             </Route>
 
             <Route path="/log">
-              <Login/>
+              <Login />
             </Route>
 
             <Route path="/sign">
-              <Signup/>
+              <Signup />
             </Route>
 
             <PrivetRoute path="/details/:Id">
-              <Details/>
+              <Details />
             </PrivetRoute>
-
+            <Route path="*">
+              <Notfound></Notfound>
+            </Route>
           </Switch>
-          <Footer/>
-          </BrowserRouter>
+          <Footer />
+        </BrowserRouter>
       </AuthProvider>
     </div>
   );
