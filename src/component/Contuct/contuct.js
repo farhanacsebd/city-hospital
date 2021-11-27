@@ -30,9 +30,7 @@ const Contuct = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-6">
-                        <div className="text-center">
-                            <img className="w-100" src="https://i0.wp.com/cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1" alt="" />
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7304.085114750279!2d90.3664205848533!3d23.74586176457309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1638025787577!5m2!1sen!2sbd" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                 </div>
