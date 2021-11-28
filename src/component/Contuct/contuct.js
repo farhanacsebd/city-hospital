@@ -17,12 +17,12 @@ const Contuct = () => {
                         <div className="text-center">
                             <h4 className='mb-3'>Contact Information</h4>
 
-                            <p>H#12/A, Road#02, Katalganj R/A, Panchlaish, Dhaka
+                            <p>H#12/A, Road#02, Katalbagan R/A, Dhanbondi, Dhaka
 
                                 Phone : +0233445; For Serial : +918610115,01886610116; Customer Care: +86610117 (7:00 AM to 11:00 PM)
 
                                 Email: cityhospital1238@gmail.com</p>
-                            <p>House# Maa Plaza, Kadomtoli Mor, Zinzira, Keranijanj, Dhaka-1310
+                            <p>House# Maa Plaza, Kadomtoli Mor, Zinzira, Dhanbondi 27, Dhaka-1310
 
                                 Phone: +0233445; For Serial : +918610115,01886610116; Customer Care: +86610117
 
